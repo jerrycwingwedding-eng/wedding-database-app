@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Secret keys
+wedding-sheet-db-fa09f2fdbec3.json
+*service-account*.json

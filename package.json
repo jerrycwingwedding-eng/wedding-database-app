@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "dev:server": "node server.js",
-    "build": "npx --yes vite@6.4.3 build",
+    "build": "npm install --include=dev --no-audit --no-fund && npm run build:app",
+    "build:app": "vite build",
     "preview": "vite preview",
     "start": "node server.js",
     "clean": "rm -rf dist",
